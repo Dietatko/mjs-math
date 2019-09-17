@@ -1,0 +1,30 @@
+{
+  "name": "mjs-math",
+  "version": "0.1.0",
+  "description": "mJS Math object",
+  "scripts": {
+    "build": "uglifyjs 'src/js/mjs_math.js' --output 'fs/mjs_math.js' --mangle --comments"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dietatko/mjs-math.git"
+  },
+  "keywords": [
+    "mongoose-os",
+    "js",
+    "math",
+    "mjs"
+  ],
+  "author": {
+    "name": "Andrej Burger",
+    "email": "burgera@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Dietatko/mjs-math/issues"
+  },
+  "homepage": "https://github.com/Dietatko/mjs-math#readme",
+  "devDependencies": {
+    "uglify-es": "^3.3.9"
+  }
+}
