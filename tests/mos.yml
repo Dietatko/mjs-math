@@ -14,7 +14,7 @@ libs:
   - origin: https://github.com/mongoose-os-libs/rpc-uart
   - origin: https://github.com/mongoose-os-libs/mjs
   - origin: https://github.com/Dietatko/mjs-testing
-  - name: mjs-math
+  - origin: https://github.com/Dietatko/mjs-math
 
 tags:
   - mjs-math
